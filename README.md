@@ -7,5 +7,8 @@ This repository is used for setting up a working postgres using the official pos
 - Docker-compose 1.21.2
 
 ## Running it
-- To start, `docker-compose up -d`
-- To stop, `docker-compose down `
+- Pull the official image from postgres
+    - `docker pull postgres:10.4`
+- With the docker-compose file in the same directory,
+    - To start, `docker-compose up -d` 
+    - To stop, `docker-compose down `
